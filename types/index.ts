@@ -11,3 +11,10 @@ export type Pet = {
   name: string;
   image: StaticImport;
 };
+
+export type Service = {
+  id: string;
+  title: string;
+  description: string;
+  image: StaticImport;
+};

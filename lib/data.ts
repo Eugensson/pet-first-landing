@@ -10,8 +10,11 @@ import img9 from "@/public/assets/pets/9.jpg";
 import img10 from "@/public/assets/pets/10.jpg";
 import img11 from "@/public/assets/pets/11.jpg";
 import img12 from "@/public/assets/pets/12.jpg";
+import service1Img from "@/public/assets/services/service-icon1.svg";
+import service2Img from "@/public/assets/services/service-icon2.svg";
+import service3Img from "@/public/assets/services/service-icon3.svg";
 
-import { NavItem, Pet } from "@/types";
+import { NavItem, Pet, Service } from "@/types";
 
 export const navItems: NavItem[] = [
   {
@@ -104,5 +107,29 @@ export const petsData: Pet[] = [
     category: "cat",
     name: "Milo",
     image: img12,
+  },
+];
+
+export const serviceData: Service[] = [
+  {
+    id: "1",
+    title: "Pharmacy",
+    description:
+      "Our pet pharmacy provides safe, veterinarian-approved medications and supplements to support your animal’s health. We ensure quality care, timely delivery, and expert advice to help your pets stay happy, active, and protected every day.",
+    image: service1Img,
+  },
+  {
+    id: "2",
+    title: "Breed-specific Haircuts",
+    description:
+      "Our grooming experts offer stylish, breed-specific haircuts designed to highlight your pet’s natural beauty and comfort. From precise trimming to coat care, we make every grooming session relaxing and tailored to your furry friend’s needs.",
+    image: service2Img,
+  },
+  {
+    id: "3",
+    title: "Clothes",
+    description:
+      "We design and offer comfortable, durable, and stylish pet clothing for every season and occasion. From cozy sweaters to rainproof jackets, our collection keeps your pets warm, safe, and looking adorable wherever they go.",
+    image: service3Img,
   },
 ];
