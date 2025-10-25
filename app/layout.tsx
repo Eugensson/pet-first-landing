@@ -12,11 +12,11 @@ const josefinSans = Josefin_Sans({
 
 export const metadata: Metadata = {
   title: {
-    default: "Pet First - Trusted Pet & Bird Care",
-    template: "%s | Pet First - Trusted Pet & Bird Care",
+    default: "Pet First - Expert Pet & Bird Care Services",
+    template: "%s | Pet First - Expert Pet & Bird Care Services",
   },
   description:
-    "Professional and compassionate pet & bird care by experienced, insured caregivers. We offer home visits, overnight boarding, grooming, medication administration, and personalized care plans with daily photo updates. Flexible scheduling and COVID-safe procedures.",
+    "Pet First provides professional and caring services for pets and birds, including grooming, breed-specific haircuts, pharmacy support, adoption guidance, and personalized care plans. Safe, reliable, and tailored to keep your pets happy and healthy every day.",
 };
 
 export default function RootLayout({

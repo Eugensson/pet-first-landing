@@ -43,7 +43,7 @@ export const ServiceSlider = () => {
             {title}
           </p>
           <p className="text-lg mb-10 line-clamp-4">{description}</p>
-          <button className="btn btn-primary">Read more</button>
+          <button className="btn btn-primary">Learn more</button>
         </SwiperSlide>
       ))}
     </Swiper>

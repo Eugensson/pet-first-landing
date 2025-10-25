@@ -1,4 +1,5 @@
 import { StaticImport } from "next/dist/shared/lib/get-img-props";
+import { IconType } from "react-icons";
 
 export type NavItem = {
   name: string;
@@ -17,4 +18,10 @@ export type Service = {
   title: string;
   description: string;
   image: StaticImport;
+};
+
+export type Social = {
+  label: string;
+  icon: IconType;
+  href: string;
 };

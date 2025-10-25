@@ -14,7 +14,8 @@ import service1Img from "@/public/assets/services/service-icon1.svg";
 import service2Img from "@/public/assets/services/service-icon2.svg";
 import service3Img from "@/public/assets/services/service-icon3.svg";
 
-import { NavItem, Pet, Service } from "@/types";
+import { NavItem, Pet, Service, Social } from "@/types";
+import { BsFacebook, BsInstagram, BsTwitterX } from "react-icons/bs";
 
 export const navItems: NavItem[] = [
   {
@@ -131,5 +132,23 @@ export const serviceData: Service[] = [
     description:
       "We design and offer comfortable, durable, and stylish pet clothing for every season and occasion. From cozy sweaters to rainproof jackets, our collection keeps your pets warm, safe, and looking adorable wherever they go.",
     image: service3Img,
+  },
+];
+
+export const socialItems: Social[] = [
+  {
+    label: "Facebook",
+    icon: BsFacebook,
+    href: "https://www.facebook.com",
+  },
+  {
+    label: "Instagram",
+    icon: BsInstagram,
+    href: "https://www.instagram.com",
+  },
+  {
+    label: "Twitter X",
+    icon: BsTwitterX,
+    href: "https://x.com",
   },
 ];
