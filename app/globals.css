@@ -1,0 +1,72 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --font-primary: "Josefin Sans", sans-serif;
+
+  --color-primary: #062d3e;
+  --color-primary-hover: #021f2c;
+  --color-orange: #ed5c01;
+  --color-orange-hover: #e45a03;
+  --color-teal: #189cab;
+  --color-cream: #ebe3cc;
+  --color-yellow: #fbbd08;
+
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1210px;
+
+  --container-padding: 2rem;
+  --container-padding-lg: 1rem;
+
+  --background-image-hero: url("/assets/hero/hero-bg.png");
+  --background-image-pets: url("/assets/pets/pets-bg.png");
+  --background-image-services: url("/assets/services/bg.png");
+  --background-image-adoption: url("/assets/adoption/bg.png");
+  --background-image-newsletter-yellow: url("/assets/newsletter/bg-yellow.svg");
+  --background-image-newsletter-orange: url("/assets/newsletter/bg-orange.svg");
+  --background-image-footer: url("/assets/footer/bg.svg");
+}
+
+body {
+  @apply font-primary text-primary text-2xl;
+}
+
+.h2 {
+  @apply text-5xl font-medium leading-tight;
+}
+
+.btn {
+  @apply py-3 px-10 h-14 flex justify-center items-center rounded-full text-xl transition-colors duration-200;
+}
+
+.btn-outline {
+  @apply bg-transparent border-2 border-teal hover:bg-white/10;
+}
+
+.btn-primary {
+  @apply bg-primary text-white hover:bg-primary-hover;
+}
+
+.btn-orange {
+  @apply bg-orange text-white hover:bg-orange-hover;
+}
+
+.serviceSlider .swiper-button-prev,
+.serviceSlider .swiper-button-next {
+  @apply bg-primary text-white top-[95%] w-31 h-12 rounded-[50%] z-20;
+}
+
+.serviceSlider .swiper-button-prev {
+  @apply left-[23%] md:left-[35%] lg:left-[40%];
+}
+
+.serviceSlider .swiper-button-next {
+  @apply right-[23%] md:right-[35%] lg:right-[40%];
+}
+
+.serviceSlider .swiper-button-prev:after,
+.serviceSlider .swiper-button-next:after {
+  @apply text-lg;
+}
