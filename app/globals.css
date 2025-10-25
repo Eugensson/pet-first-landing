@@ -46,8 +46,8 @@ body {
   @apply py-3 px-10 h-14 flex justify-center items-center rounded-full text-xl transition-colors duration-200 cursor-pointer;
 }
 
-.btn-outline {
-  @apply bg-transparent border-2 border-teal hover:bg-white/10;
+.btn-sign-up {
+  @apply bg-primary text-white hover:bg-primary-hover xl:bg-transparent xl:text-white xl:border-2 xl:border-teal xl:hover:bg-white/10;
 }
 
 .btn-primary {

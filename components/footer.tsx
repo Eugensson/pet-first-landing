@@ -4,7 +4,10 @@ import { Socials } from "@/components/socials";
 
 export const Footer = () => {
   return (
-    <footer className="py-6 min-h-50 flex items-center bg-footer bg-cover bg-no-repeat bg-center">
+    <footer
+      className="py-18 min-h-50 flex items-center bg-footer bg-cover bg-no-repeat bg-center"
+      id="contact"
+    >
       <nav className="container flex flex-col lg:flex-row justify-between">
         <div className="flex-1 flex flex-col gap-y-2">
           <Logo

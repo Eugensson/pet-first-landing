@@ -3,7 +3,8 @@ import { IconType } from "react-icons";
 
 export type NavItem = {
   name: string;
-  href: string;
+  path: string;
+  offset: number;
 };
 
 export type Pet = {

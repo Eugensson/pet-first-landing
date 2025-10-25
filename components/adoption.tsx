@@ -2,7 +2,10 @@ import Image from "next/image";
 
 export const Adoption = () => {
   return (
-    <section className="py-8 min-h-190 flex bg-adoption bg-cover bg-center bg-no-repeat">
+    <section
+      className="py-8 min-h-190 flex bg-adoption bg-cover bg-center bg-no-repeat"
+      id="about"
+    >
       <div className="container flex flex-col lg:flex-row items-center justify-center gap-x-16">
         <div className="flex-1 mb-6 lg:mb-0">
           <Image

@@ -5,7 +5,10 @@ import pretitleImage from "@/public/assets/hero/pretitle-img.svg";
 
 export const Hero = () => {
   return (
-    <section className="min-h-100 lg:min-h-200 bg-cream bg-cover bg-no-repeat lg:bg-hero">
+    <section
+      className="min-h-100 lg:min-h-200 bg-cream bg-cover bg-no-repeat lg:bg-hero"
+      id="home"
+    >
       <Header />
       <div className="container mx-auto flex justify-start items-center min-h-100 lg:h-200">
         <div className="lg:max-w-162 mx-auto lg:mx-0 text-center lg:text-left">

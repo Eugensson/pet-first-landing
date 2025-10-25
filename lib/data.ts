@@ -20,19 +20,23 @@ import { BsFacebook, BsInstagram, BsTwitterX } from "react-icons/bs";
 export const navItems: NavItem[] = [
   {
     name: "Services",
-    href: "#services",
+    path: "services",
+    offset: 0,
   },
   {
     name: "About",
-    href: "#about",
+    path: "about",
+    offset: 0,
   },
   {
     name: "Blog",
-    href: "#blog",
+    path: "blog",
+    offset: 0,
   },
   {
     name: "Contact",
-    href: "#contact",
+    path: "contact",
+    offset: 0,
   },
 ];
 

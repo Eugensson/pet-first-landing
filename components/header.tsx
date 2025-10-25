@@ -7,9 +7,7 @@ export const Header = () => {
       <div className="relative container mx-auto h-full flex flex-col lg:flex-row justify-between items-center gap-y-6">
         <Logo />
         <Nav />
-        <button type="button" className="btn btn-primary xl:btn-outline">
-          Sign up
-        </button>
+        <button className="btn btn-sign-up capitalize">Sign up</button>
       </div>
     </header>
   );

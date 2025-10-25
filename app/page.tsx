@@ -4,6 +4,7 @@ import { Footer } from "@/components/footer";
 import { Services } from "@/components/services";
 import { Adoption } from "@/components/adoption";
 import { Newsletter } from "@/components/newsletter";
+import { BackToTopBtn } from "@/components/back-to-top-btn";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <Adoption />
       <Newsletter />
       <Footer />
+      <BackToTopBtn />
     </div>
   );
 };

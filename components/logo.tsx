@@ -1,5 +1,7 @@
-import Link from "next/link";
+"use client";
+
 import Image from "next/image";
+import { Link as ScrollLink } from "react-scroll";
 
 import { cn } from "@/lib/utils";
 
@@ -11,10 +13,14 @@ export const Logo = ({
   isFooter?: boolean;
 }) => {
   return (
-    <Link
-      href="/"
+    <ScrollLink
+      smooth
+      to="home"
+      duration={500}
+      delay={50}
+      offset={-150}
       className={cn(
-        "flex items-end gap-2",
+        "flex items-end gap-2 cursor-pointer",
         isFooter ? "text-orange" : "text-primary",
         className
       )}
@@ -31,6 +37,16 @@ export const Logo = ({
       <span className={cn("font-semibold", isFooter ? "text-4xl" : "text-2xl")}>
         Pet-First
       </span>
-    </Link>
+    </ScrollLink>
+    // <Link
+    //   href="/"
+    //   className={cn(
+    //     "flex items-end gap-2",
+    //     isFooter ? "text-orange" : "text-primary",
+    //     className
+    //   )}
+    // >
+
+    // </Link>
   );
 };
