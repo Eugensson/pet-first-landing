@@ -17,9 +17,6 @@
   --breakpoint-lg: 1024px;
   --breakpoint-xl: 1210px;
 
-  --container-padding: 2rem;
-  --container-padding-lg: 1rem;
-
   --background-image-hero: url("/assets/hero/hero-bg.png");
   --background-image-pets: url("/assets/pets/pets-bg.png");
   --background-image-services: url("/assets/services/bg.png");
@@ -30,7 +27,15 @@
 }
 
 body {
-  @apply font-primary text-primary text-2xl;
+  @apply max-w-360 mx-auto font-primary text-primary text-2xl;
+}
+
+.container {
+  @apply w-full max-w-302.5 mx-auto px-4 xl:px-0;
+}
+
+.h1 {
+  @apply text-4xl sm:text-5xl lg:text-8xl font-bold uppercase -tracking-[0.05em];
 }
 
 .h2 {
@@ -38,7 +43,7 @@ body {
 }
 
 .btn {
-  @apply py-3 px-10 h-14 flex justify-center items-center rounded-full text-xl transition-colors duration-200;
+  @apply py-3 px-10 h-14 flex justify-center items-center rounded-full text-xl transition-colors duration-200 cursor-pointer;
 }
 
 .btn-outline {
